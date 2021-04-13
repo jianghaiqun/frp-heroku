@@ -5,7 +5,6 @@ cd /frps
 cat <<-EOF > /frps/frps.ini
 [common]
 bind_port = $PORT
-dashboard_port = 443
 token = 12345678
 dashboard_user = admin
 dashboard_pwd = admin
